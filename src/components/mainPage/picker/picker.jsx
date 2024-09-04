@@ -7,7 +7,7 @@ import Random from '../randomMovie/random';
 import './picker.scss';
 
 
-const OMDB_API_KEY = '60081a0c';
+const OMDB_API_KEY = '34d27982';
 
 function Picker({addFavorite, removeFavorite}) {
 

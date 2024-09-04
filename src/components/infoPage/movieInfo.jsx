@@ -5,7 +5,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import './movieInfo.scss';
 
 
-const OMDB_API_KEY = '60081a0c';
+const OMDB_API_KEY = '34d27982';
 
 function MovieInfo({favorites, addFavorite, removeFavorite}) {
     const { id } = useParams();
