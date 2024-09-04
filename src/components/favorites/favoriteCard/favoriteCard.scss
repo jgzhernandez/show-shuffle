@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.favorite-card{
+    margin: 20px;
+
+    .card-container{
+        width: 200px;
+        height: 350px;
+            margin: 1%;
+            position: relative;
+            border-radius: 15px;
+            margin-bottom: 50px;
+            cursor: pointer;
+
+        img{
+            object-fit: cover;
+            width: inherit;
+            height: inherit;
+            opacity: 0.6;
+            border-radius: 15px;
+        }
+
+    }
+}
