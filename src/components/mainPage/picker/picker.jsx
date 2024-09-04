@@ -27,7 +27,7 @@ function Picker({addFavorite, removeFavorite}) {
           const randomId = `tt${Math.floor(1+ Math.random() * 9999999)}`;
 
           try {
-              const response = await fetch(`http://www.omdbapi.com/?i=${randomId}&apikey=${OMDB_API_KEY}`);
+              const response = await fetch(`https://www.omdbapi.com/?i=${randomId}&apikey=${OMDB_API_KEY}`);
               const data = await response.json();
 
               if (data.Response === 'True' && data.Type === 'movie') {
