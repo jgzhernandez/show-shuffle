@@ -18,7 +18,7 @@ function MovieInfo({favorites, addFavorite, removeFavorite}) {
     useEffect(() => {
         const fetchMovieDetails = async () => {
             try {
-                const response = await fetch(`http://www.omdbapi.com/?i=${id}&apikey=${OMDB_API_KEY}`);
+                const response = await fetch(`https://www.omdbapi.com/?i=${id}&apikey=${OMDB_API_KEY}`);
                 const data = await response.json();
 
                 if (data.Response === 'True') {
